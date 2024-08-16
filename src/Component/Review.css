@@ -1,0 +1,241 @@
+.reviewcontainer{
+    justify-content: center;
+    display: flex;
+    
+}
+.review2{
+    justify-content: center;
+    display: flex;
+    padding: 0 35%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+.review3{
+    justify-content: center;
+    display: flex;
+    padding: 0 26%;
+    text-align: center;
+}
+.reviewimg1{
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+}
+.reviewcard{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+.reviewcard img{
+    width: 100%;
+}
+.reviewimg2{
+    justify-content: center;
+    display: flex;
+    margin-top: 12px;
+}
+.reviewcard2 img{
+    width: 100%;
+}
+.addreview{
+    justify-content: center;
+    display: flex;
+}
+.btn{
+    justify-content: center;
+    display: flex;
+}
+.btn button{
+    width: 11%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    
+}
+.rating{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.ratingqry{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: gray;
+    padding: 0 28%;
+}
+.politicsbth{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.politicsbth button{
+    width: 11%;
+    height: 40px;
+    background-color: red;
+    color: white;
+}
+.pltaffair{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 0 80px;
+}
+.pltaffair p{
+    font-size: larger;
+    
+}
+.pltaffair p a{
+    font-size: x-small;
+    color: gray;
+}
+.star-rating-container {
+    text-align: center; 
+    padding: 5px;
+    width: 100%;
+  }
+    .star-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    max-width: 750px; 
+    margin: 0 auto;
+  }
+  
+  .star-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .star-column h3 {
+    color: gray;
+    font-weight: 600;
+    margin-left: -53%;
+    font-size: small;
+  }
+
+  .star-images {
+    display: grid;
+    grid-template-rows: repeat(6, auto); 
+    gap: 20px; 
+  }
+    .star-images img {
+    width: 90%; 
+    height: auto; 
+    object-fit: cover;
+  }
+  .column-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .column-button button {
+    background-color: rgb(246, 217, 220);
+    color: red;
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    width: 150%;
+    margin-left: -50px;
+    font-weight: bold;
+  }
+  .ignitechg{
+    justify-content: center;
+    display: flex;
+    margin-top: 7%;
+  }
+  .ignitechg img{
+    width: 100%;
+  }
+  .footer{
+    justify-content: center;
+    display: flex;
+  }
+  .footer img{
+    width: 100%;
+  }
+
+
+@media (max-width: 768px) {
+
+    .body{
+        margin-left: 50%;
+    }
+
+    .review2,
+    .review3,
+    .ratingqry {
+        padding: 0 10%;
+    }
+
+    .star-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+
+    .column-button button {
+        padding: 10px 20px;
+        max-width: 200px;
+    }
+
+    .pltaffair {
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .pltaffair p a {
+        font-size: smaller;
+    }
+    .ignitechg{
+        width: 240%;
+        height: 70%;
+        margin-left: -70%;
+
+    }
+    .footer{
+        width: 240%;
+        height: 70%;
+        margin-left: -70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .review2,
+    .review3,
+    .ratingqry {
+        padding: 0 5%;
+    }
+
+    .star-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    .column-button button {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .btn button,
+    .politicsbth button {
+        width: 100%;
+    }
+
+    .pltaffair {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pltaffair p a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+}
+  

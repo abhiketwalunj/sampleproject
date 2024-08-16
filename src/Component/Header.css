@@ -1,0 +1,152 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+
+.headerimg img{
+    width: 100%;
+    height: 100%;
+}
+.headername{
+   margin-left: 22%;
+    display: flex;
+    color: white;
+    margin-top: -40%;
+   
+}
+.headername h4{
+    padding: 15px; 
+    font-weight: 500;
+    font-size: small;
+}
+.headername h1{
+    padding-right: 100px;
+    font-weight: 100;
+   
+    
+}
+.headername h5{
+    padding: 10px 110px;
+    font-weight: 500;
+    font-size: small;
+}
+.searchbox input{
+  width: 440px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+.searchbox input{
+    height: 36px;
+    width: 30%;
+    margin-top: 16%;
+    margin-left: 35%;
+    
+}
+
+.search-button {
+  width: 60px;
+  height: 38px;
+  margin-left: -40px;
+  background-color: white;
+  border: none;
+}
+.cards{
+  justify-content: center;
+  display: flex;
+  margin-top: 9%;
+  
+}
+.cards img{
+    padding: 0 8px ; 
+    width: 17%;
+    height: 20%;
+}
+.cards1{
+    justify-content: center;
+    display: flex;
+    margin-top: 4%;
+    
+  }
+  .cards1 img{
+      padding: 0 8px ; 
+      width: 17%;
+      height: 20%;
+  }
+  .lastname{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    font-size: small;
+  }
+  .lastname p{
+    padding: 10px;
+    color: rgb(237, 100, 100);
+  }
+  .name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .name1{
+    justify-content: center;
+    display: flex;
+    margin-top: -20px;
+    padding: 0 27%;
+    text-align: center;
+    font-size: smaller;
+    color: gray;
+  }
+  .name2{
+    justify-content: center;
+    display: flex;
+    font-size: smaller;
+    color: gray;
+    margin-top: 20px;
+  }
+ .candidatespage{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+ }
+ .candidatespage img{
+    width: 100%;
+    margin-top: 30px;
+    
+ }
+
+@media (max-width: 768px) {
+  body{
+    margin-left: 52%;
+  
+  }
+  .headerimg{
+    width: 137%;
+    height: 40%;
+    margin-left: -18%;
+  }
+  .headername {
+    margin-top: -57%;
+      margin-left: 40px;
+    
+  }
+
+  .searchbox input {
+      width: 40%;
+      margin-left: 25%;
+   
+  }
+
+  .cards img,
+  .cards1 img {
+      width: 45%;
+  }
+
+  .name1 {
+      padding: 0 10%;
+  }
+}
